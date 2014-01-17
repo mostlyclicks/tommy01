@@ -11,3 +11,6 @@ Refinery::Pages::Engine.load_seed
 
 # Added by Refinery CMS Bios extension
 Refinery::Bios::Engine.load_seed
+
+# Added by Refinery CMS Results extension
+Refinery::Results::Engine.load_seed

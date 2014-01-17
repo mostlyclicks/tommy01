@@ -1,0 +1,31 @@
+cs:
+  refinery:
+    plugins:
+      results:
+        title: Results
+    results:
+      admin:
+        results:
+          actions:
+            create_new: Přidat Result
+            reorder: Řadit Results
+            reorder_done: Konec řazení Results
+          records:
+            title: Results
+            sorry_no_results: Litujeme, ale nebyly nalezny žádné výsledky.
+            no_items_yet: Zatím nebyly vytvořeny žádné Results. Zvolte "Přidat Result" pro přidání prvního result.
+          result:
+            view_live_html: Zobrazit náhled result<br/><em>(otevře se v novém okně)</em>
+            edit: Upravit result
+            delete: Smazat result
+      results:
+        show:
+          other: Další Results
+  activerecord:
+    attributes:
+      'refinery/results/result':
+        title: Title
+        result_date: Result Date
+        location: Location
+        body_of_water: Body Of Water
+        place: Place

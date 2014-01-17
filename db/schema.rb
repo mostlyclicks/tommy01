@@ -11,7 +11,7 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20140117000028) do
+ActiveRecord::Schema.define(:version => 20140117001247) do
 
   create_table "refinery_bios", :force => true do |t|
     t.string   "name"
@@ -104,6 +104,17 @@ ActiveRecord::Schema.define(:version => 20140117000028) do
     t.string   "file_ext"
     t.datetime "created_at",     :null => false
     t.datetime "updated_at",     :null => false
+  end
+
+  create_table "refinery_results", :force => true do |t|
+    t.string   "title"
+    t.date     "result_date"
+    t.string   "location"
+    t.string   "body_of_water"
+    t.integer  "place"
+    t.integer  "position"
+    t.datetime "created_at",    :null => false
+    t.datetime "updated_at",    :null => false
   end
 
   create_table "refinery_roles", :force => true do |t|

@@ -1,0 +1,32 @@
+es:
+  refinery:
+    plugins:
+      results:
+        title: Results
+#        article: masculino/femenino
+    results:
+      admin:
+        results:
+          actions:
+            create_new: Crear nuevo result
+            reorder: Reordenar results
+            reorder_done: Reordenación de results completada
+          records:
+            title: Results
+            sorry_no_results: Lo siento, no hay resultados
+            no_items_yet: No hay results todavía. Pulsa en "Crear nuevo Result" para crear tu primer result.
+          result:
+            view_live_html: Ver este result como abierto al público <br/><em>(abre en ventana nueva)</em>
+            edit: Editar este result
+            delete: Borrar este result para siempre
+      results:
+        show:
+          other: Otros results
+  activerecord:
+    attributes:
+      'refinery/results/result':
+        title: Title
+        result_date: Result Date
+        location: Location
+        body_of_water: Body Of Water
+        place: Place

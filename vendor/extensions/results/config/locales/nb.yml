@@ -1,0 +1,31 @@
+nb:
+  refinery:
+    plugins:
+      results:
+        title: Results
+    results:
+      admin:
+        results:
+          actions:
+            create_new: Lag en ny Result
+            reorder: Endre rekkefølgen på Results
+            reorder_done: Ferdig å endre rekkefølgen Results
+          records:
+            title: Results
+            sorry_no_results: Beklager! Vi fant ikke noen resultater.
+            no_items_yet: Det er ingen Results enda. Klikk på "Lag en ny Result" for å legge til din første result.
+          result:
+            view_live_html: Vis hvordan denne result ser ut offentlig <br/><em>(åpner i et nytt vindu)</em>
+            edit: Rediger denne result
+            delete: Fjern denne result permanent
+      results:
+        show:
+          other: Andre Results
+  activerecord:
+    attributes:
+      'refinery/results/result':
+        title: Title
+        result_date: Result Date
+        location: Location
+        body_of_water: Body Of Water
+        place: Place

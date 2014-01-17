@@ -1,0 +1,33 @@
+zh-CN:
+  refinery:
+    plugins:
+      results:
+        title: Results
+    results:
+      admin:
+        results:
+          actions:
+            create_new: 建立新的 Result
+            reorder: 对 Results 重新排序
+            reorder_done: 对 Results 的重新排序结束
+          records:
+            title: Results
+            sorry_no_results: 对不起，未找到结果。 #Sorry! There are no results found.
+
+            # There are no Results yet. Click "Add New Result" to add your first result.
+            no_items_yet: 目前没有 Results . 点击 "Add New Result" 创建一个result.
+          result:
+            view_live_html: 查看 result 的最新内容.<br/><em>(新窗口中打开)</em>
+            edit: 编辑 result
+            delete: 永久删除 result
+      results:
+        show:
+          other: 其他 Results
+  activerecord:
+    attributes:
+      'refinery/results/result':
+        title: Title
+        result_date: Result Date
+        location: Location
+        body_of_water: Body Of Water
+        place: Place

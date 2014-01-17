@@ -1,0 +1,31 @@
+fr:
+  refinery:
+    plugins:
+      results:
+        title: Results
+    results:
+      admin:
+        results:
+          actions:
+            create_new: Créer un(e) nouve(au/l/lle) Result
+            reorder: Réordonner les Results
+            reorder_done: Fin de réordonnancement des Results
+          records:
+            title: Results
+            sorry_no_results: "Désolé ! Aucun résultat."
+            no_items_yet: 'Il n''y a actuellement aucun(e) Result. Cliquer sur "Créer un(e) nouve(au/l/lle) Result" pour créer votre premi(er/ère) result.'
+          result:
+            view_live_html: Voir ce(t/tte) result <br/><em>(Ouvre une nouvelle fenêtre)</em>
+            edit: Modifier ce(t/tte) result
+            delete: Supprimer définitivement ce(t/tte) result
+      results:
+        show:
+          other: Autres Results
+  activerecord:
+    attributes:
+      'refinery/results/result':
+        title: Title
+        result_date: Result Date
+        location: Location
+        body_of_water: Body Of Water
+        place: Place

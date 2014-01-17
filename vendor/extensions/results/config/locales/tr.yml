@@ -1,0 +1,31 @@
+tr:
+  refinery:
+    plugins:
+      results:
+        title: Results
+    results:
+      admin:
+        results:
+          actions:
+            create_new: Yeni Ekle Result
+            reorder: Tekrar sirala Results
+            reorder_done: Tekrar siralama tamamlandiResults
+          records:
+            title: Results
+            sorry_no_results: Uzgunum! Herhangi bir sonuc bulunamadi.
+            no_items_yet: Herhangi bir Results yok henuz.  Tikla "Yeni Ekle Result" eklemek senin ilk result.
+          result:
+            view_live_html: Bunu canlu result goruntule <br/><em>(yeni bir pencerede acar)</em>
+            edit: Bunu Duzenle result
+            delete: Bunu Sil result sonsuza dek
+      results:
+        show:
+          other: Diger Results
+  activerecord:
+    attributes:
+      'refinery/results/result':
+        title: Title
+        result_date: Result Date
+        location: Location
+        body_of_water: Body Of Water
+        place: Place

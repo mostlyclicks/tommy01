@@ -1,0 +1,31 @@
+nl:
+  refinery:
+    plugins:
+      results:
+        title: Results
+    results:
+      admin:
+        results:
+          actions:
+            create_new: Nieuwe Result toevoegen
+            reorder: De volgorde van de Results wijzigen
+            reorder_done: Klaar met het wijzingen van de van de Result-volgorde
+          records:
+            title: Results
+            sorry_no_results: Helaas! Er zijn geen resultaten gevonden.
+            no_items_yet: Er zijn nog geen Results. Druk op 'Nieuwe Result toevoegen' om de eerste toe te voegen.
+          result:
+            view_live_html: Deze result op de website bekijken <br/><em>(opent in een nieuw venster)</em>
+            edit: Bewerk deze result
+            delete: Deze result definitief verwijderen
+      results:
+        show:
+          other: Andere Results
+  activerecord:
+    attributes:
+      'refinery/results/result':
+        title: Title
+        result_date: Result Date
+        location: Location
+        body_of_water: Body Of Water
+        place: Place

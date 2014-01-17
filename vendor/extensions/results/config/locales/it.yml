@@ -1,0 +1,31 @@
+it:
+  refinery:
+    plugins:
+      results:
+        title: Results
+    results:
+      admin:
+        results:
+          actions:
+            create_new: Aggiungi Nuovo Result
+            reorder: Riordina Results
+            reorder_done: Termina il Riordino di Results
+          records:
+            title: Results
+            sorry_no_results: "Spiacenti! Nessun risultato trovato"
+            no_items_yet: Non ci sono ancora Results. Clicca "Aggiungi Nuovo Result" per aggiungere il tuo primo result.
+          result:
+            view_live_html: Guarda live questo result <br/><em>(apre una nuova finestra)</em>
+            edit: Modifica questo result
+            delete: Rimuovi per sempre questo result
+      results:
+        show:
+          other: Altri Results
+  activerecord:
+    attributes:
+      'refinery/results/result':
+        title: Title
+        result_date: Result Date
+        location: Location
+        body_of_water: Body Of Water
+        place: Place

@@ -1,0 +1,51 @@
+<% content_for :body_content_title do %>
+  <%= @result.title %>
+<% end %>
+
+<% content_for :body do %>
+  <section>
+    <h1>Title</h1>
+    <p>
+      <%=raw @result.title %>
+    </p>
+  </section>
+  <section>
+    <h1>Result Date</h1>
+    <p>
+      <%=raw @result.result_date %>
+    </p>
+  </section>
+  <section>
+    <h1>Location</h1>
+    <p>
+      <%=raw @result.location %>
+    </p>
+  </section>
+  <section>
+    <h1>Body Of Water</h1>
+    <p>
+      <%=raw @result.body_of_water %>
+    </p>
+  </section>
+  <section>
+    <h1>Place</h1>
+    <p>
+      <%=raw @result.place %>
+    </p>
+  </section>
+<% end %>
+
+<% content_for :side_body do %>
+  <aside>
+    <h2><%= t('.other') %></h2>
+    <ul id="results">
+      <% @results.each do |result| %>
+        <li>
+          <%= link_to result.title, refinery.results_result_path(result) %>
+        </li>
+      <% end %>
+    </ul>
+  </aside>
+<% end %>
+
+<%= render '/refinery/content_page' %>
