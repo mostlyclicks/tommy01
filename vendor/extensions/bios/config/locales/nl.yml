@@ -1,0 +1,30 @@
+nl:
+  refinery:
+    plugins:
+      bios:
+        title: Bios
+    bios:
+      admin:
+        bios:
+          actions:
+            create_new: Nieuwe Bio toevoegen
+            reorder: De volgorde van de Bios wijzigen
+            reorder_done: Klaar met het wijzingen van de van de Bio-volgorde
+          records:
+            title: Bios
+            sorry_no_results: Helaas! Er zijn geen resultaten gevonden.
+            no_items_yet: Er zijn nog geen Bios. Druk op 'Nieuwe Bio toevoegen' om de eerste toe te voegen.
+          bio:
+            view_live_html: Deze bio op de website bekijken <br/><em>(opent in een nieuw venster)</em>
+            edit: Bewerk deze bio
+            delete: Deze bio definitief verwijderen
+      bios:
+        show:
+          other: Andere Bios
+  activerecord:
+    attributes:
+      'refinery/bios/bio':
+        name: Name
+        bio_description: Bio Description
+        bio_pict: Bio Pict
+        bio_excerpt: Bio Excerpt

@@ -11,7 +11,17 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20140106163308) do
+ActiveRecord::Schema.define(:version => 20140117000028) do
+
+  create_table "refinery_bios", :force => true do |t|
+    t.string   "name"
+    t.text     "bio_description"
+    t.integer  "bio_pict_id"
+    t.text     "bio_excerpt"
+    t.integer  "position"
+    t.datetime "created_at",      :null => false
+    t.datetime "updated_at",      :null => false
+  end
 
   create_table "refinery_images", :force => true do |t|
     t.string   "image_mime_type"

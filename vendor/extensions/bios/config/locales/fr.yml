@@ -1,0 +1,30 @@
+fr:
+  refinery:
+    plugins:
+      bios:
+        title: Bios
+    bios:
+      admin:
+        bios:
+          actions:
+            create_new: Créer un(e) nouve(au/l/lle) Bio
+            reorder: Réordonner les Bios
+            reorder_done: Fin de réordonnancement des Bios
+          records:
+            title: Bios
+            sorry_no_results: "Désolé ! Aucun résultat."
+            no_items_yet: 'Il n''y a actuellement aucun(e) Bio. Cliquer sur "Créer un(e) nouve(au/l/lle) Bio" pour créer votre premi(er/ère) bio.'
+          bio:
+            view_live_html: Voir ce(t/tte) bio <br/><em>(Ouvre une nouvelle fenêtre)</em>
+            edit: Modifier ce(t/tte) bio
+            delete: Supprimer définitivement ce(t/tte) bio
+      bios:
+        show:
+          other: Autres Bios
+  activerecord:
+    attributes:
+      'refinery/bios/bio':
+        name: Name
+        bio_description: Bio Description
+        bio_pict: Bio Pict
+        bio_excerpt: Bio Excerpt

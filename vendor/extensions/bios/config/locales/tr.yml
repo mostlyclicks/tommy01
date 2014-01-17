@@ -1,0 +1,30 @@
+tr:
+  refinery:
+    plugins:
+      bios:
+        title: Bios
+    bios:
+      admin:
+        bios:
+          actions:
+            create_new: Yeni Ekle Bio
+            reorder: Tekrar sirala Bios
+            reorder_done: Tekrar siralama tamamlandiBios
+          records:
+            title: Bios
+            sorry_no_results: Uzgunum! Herhangi bir sonuc bulunamadi.
+            no_items_yet: Herhangi bir Bios yok henuz.  Tikla "Yeni Ekle Bio" eklemek senin ilk bio.
+          bio:
+            view_live_html: Bunu canlu bio goruntule <br/><em>(yeni bir pencerede acar)</em>
+            edit: Bunu Duzenle bio
+            delete: Bunu Sil bio sonsuza dek
+      bios:
+        show:
+          other: Diger Bios
+  activerecord:
+    attributes:
+      'refinery/bios/bio':
+        name: Name
+        bio_description: Bio Description
+        bio_pict: Bio Pict
+        bio_excerpt: Bio Excerpt

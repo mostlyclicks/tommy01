@@ -1,0 +1,30 @@
+sk:
+  refinery:
+    plugins:
+      bios:
+        title: Bios
+    bios:
+      admin:
+        bios:
+          actions:
+            create_new: Pridať Bio
+            reorder: Preusporiadať Bios
+            reorder_done: Koniec radenia Bios
+          records:
+            title: Bios
+            sorry_no_results: Ľutujeme, ale neboli nájdené žiadne výsledky.
+            no_items_yet: Nie sú vytvorené žiadne Bios. Kliknite na "Pridať Bio" pre pridanie prvého bio.
+          bio:
+            view_live_html: Zobraziť náhľad bio<br/><em>(otvorí sa v novom okne)</em>
+            edit: Upraviť bio
+            delete: Zmazať bio
+      bios:
+        show:
+          other: Daľšie Bios
+  activerecord:
+    attributes:
+      'refinery/bios/bio':
+        name: Name
+        bio_description: Bio Description
+        bio_pict: Bio Pict
+        bio_excerpt: Bio Excerpt

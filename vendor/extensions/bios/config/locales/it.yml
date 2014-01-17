@@ -1,0 +1,30 @@
+it:
+  refinery:
+    plugins:
+      bios:
+        title: Bios
+    bios:
+      admin:
+        bios:
+          actions:
+            create_new: Aggiungi Nuovo Bio
+            reorder: Riordina Bios
+            reorder_done: Termina il Riordino di Bios
+          records:
+            title: Bios
+            sorry_no_results: "Spiacenti! Nessun risultato trovato"
+            no_items_yet: Non ci sono ancora Bios. Clicca "Aggiungi Nuovo Bio" per aggiungere il tuo primo bio.
+          bio:
+            view_live_html: Guarda live questo bio <br/><em>(apre una nuova finestra)</em>
+            edit: Modifica questo bio
+            delete: Rimuovi per sempre questo bio
+      bios:
+        show:
+          other: Altri Bios
+  activerecord:
+    attributes:
+      'refinery/bios/bio':
+        name: Name
+        bio_description: Bio Description
+        bio_pict: Bio Pict
+        bio_excerpt: Bio Excerpt

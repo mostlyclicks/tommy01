@@ -1,0 +1,11 @@
+<% content_for :body do %>
+  <ul id="bios">
+    <% @bios.each do |bio| %>
+      <li>
+        <%= link_to bio.name, refinery.bios_bio_path(bio) %>
+      </li>
+    <% end %>
+  </ul>
+<% end %>
+
+<%= render '/refinery/content_page' %>

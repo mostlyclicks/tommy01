@@ -1,0 +1,31 @@
+es:
+  refinery:
+    plugins:
+      bios:
+        title: Bios
+#        article: masculino/femenino
+    bios:
+      admin:
+        bios:
+          actions:
+            create_new: Crear nuevo bio
+            reorder: Reordenar bios
+            reorder_done: Reordenación de bios completada
+          records:
+            title: Bios
+            sorry_no_results: Lo siento, no hay resultados
+            no_items_yet: No hay bios todavía. Pulsa en "Crear nuevo Bio" para crear tu primer bio.
+          bio:
+            view_live_html: Ver este bio como abierto al público <br/><em>(abre en ventana nueva)</em>
+            edit: Editar este bio
+            delete: Borrar este bio para siempre
+      bios:
+        show:
+          other: Otros bios
+  activerecord:
+    attributes:
+      'refinery/bios/bio':
+        name: Name
+        bio_description: Bio Description
+        bio_pict: Bio Pict
+        bio_excerpt: Bio Excerpt
